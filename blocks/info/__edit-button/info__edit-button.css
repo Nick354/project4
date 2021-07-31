@@ -1,5 +1,5 @@
 .info__edit-button {
-  background-image: url(../../../../images/Edit\ Button.svg);
+  background-image: url(../../../images/EditButton.svg);
   border: 1px solid #ffffff;
   box-sizing: border-box;
   background-color: #000;
@@ -7,7 +7,7 @@
   text-align: center;
   width: 24px;
   height: 24px;
-  align-self: center;
+  margin-top: 34px;
   cursor: pointer;
 }
 
