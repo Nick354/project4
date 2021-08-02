@@ -14,15 +14,25 @@
       </header>
       <main class="main">
         <section class="profile">
-          <img src="images/zhak.png" alt="Жак-Ив" class="profile__avatar" />
+          <img
+            src="images/zhak.png"
+            alt="фото автора"
+            class="profile__avatar"
+          />
 
           <div class="info">
-            <h1 class="info__title">Жак-Ив Кусто</h1>
+            <div class="info__title-edit">
+              <h1 class="info__title">Жак-Ив Кусто</h1>
+              <button
+                class="info__edit-button"
+                type="button"
+                aria-label
+              ></button>
+            </div>
             <p class="info__subtitle">Исследователь океана</p>
-            <button class="info__edit-button"></button>
           </div>
 
-          <button class="profile__add-button" type="button"></button>
+          <button class="profile__add-button" type="button" aria-label></button>
         </section>
         <section class="elements">
           <div class="element">
@@ -33,7 +43,11 @@
             />
             <div class="element__group">
               <h2 class="element__title">Карачаевск</h2>
-              <button class="element__like-button" type="button"></button>
+              <button
+                class="element__like-button"
+                type="button"
+                aria-label
+              ></button>
             </div>
           </div>
           <div class="element">
@@ -44,14 +58,22 @@
             />
             <div class="element__group">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <button class="element__like-button" type="button"></button>
+              <button
+                class="element__like-button"
+                type="button"
+                aria-label
+              ></button>
             </div>
           </div>
           <div class="element">
             <img src="images/dombai.jpg" alt="Домбай" class="element__image" />
             <div class="element__group">
               <h2 class="element__title">Домбай</h2>
-              <button class="element__like-button" type="button"></button>
+              <button
+                class="element__like-button"
+                type="button"
+                aria-label
+              ></button>
             </div>
           </div>
           <div class="element">
@@ -62,14 +84,22 @@
             />
             <div class="element__group">
               <h2 class="element__title">Гора Эльбрус</h2>
-              <button class="element__like-button" type="button"></button>
+              <button
+                class="element__like-button"
+                type="button"
+                aria-label
+              ></button>
             </div>
           </div>
           <div class="element">
             <img src="images/dombai.jpg" alt="Домбай" class="element__image" />
             <div class="element__group">
               <h2 class="element__title">Домбай</h2>
-              <button class="element__like-button" type="button"></button>
+              <button
+                class="element__like-button"
+                type="button"
+                aria-label
+              ></button>
             </div>
           </div>
           <div class="element">
@@ -80,32 +110,36 @@
             />
             <div class="element__group">
               <h2 class="element__title">Карачаево-Черкесия</h2>
-              <button class="element__like-button" type="button"></button>
+              <button
+                class="element__like-button"
+                type="button"
+                aria-label
+              ></button>
             </div>
           </div>
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">© 2020 Mesto Russia</p>
+        <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
       </footer>
 
       <div class="popup">
         <div class="popup__content">
           <button type="button" class="popup__close" aria-label></button>
           <h2 class="popup__title">Редактировать профиль</h2>
-          <form class="popup__form">
+          <form class="popup__form" name="popupForm">
             <input
               type="text"
               required
               value=""
-              class="popup__input popup__input-name"
+              class="popup__input popup__input_name"
               name="inputName"
             />
             <input
               type="text"
               required
               value=""
-              class="popup__input popup__input-job"
+              class="popup__input popup__input_job"
               name="inputJob"
             />
             <button type="submit" class="popup__save-btn">Сохранить</button>
